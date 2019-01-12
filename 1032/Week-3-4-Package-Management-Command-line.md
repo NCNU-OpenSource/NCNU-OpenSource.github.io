@@ -1,8 +1,3 @@
----
-hackpadID: G84mt2KPRKY
-hackpadWorkspace: ncnu-opensource
-tags: hackpad-import, ncnu-opensource
----
 # Week 3-4 Package Management & Command line
 
 2015/03/19 LSA 

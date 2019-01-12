@@ -1,8 +1,3 @@
----
-hackpadID: 6nuRvApbLqN
-hackpadWorkspace: ncnu-opensource
-tags: hackpad-import, ncnu-opensource
----
 # Week 5 Virtual host, Apache, lighttpd 
 
 2015/04/02 

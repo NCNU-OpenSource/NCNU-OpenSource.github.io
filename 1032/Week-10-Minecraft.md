@@ -1,8 +1,3 @@
----
-hackpadID: jSUtSjr8sUR
-hackpadWorkspace: ncnu-opensource
-tags: hackpad-import, ncnu-opensource
----
 # Week 10 Minecraft~
 
 TA弱弱，拜託不要殺我QAQ

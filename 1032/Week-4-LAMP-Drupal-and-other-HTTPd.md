@@ -1,8 +1,3 @@
----
-hackpadID: ujJqgyYdkmL
-hackpadWorkspace: ncnu-opensource
-tags: hackpad-import, ncnu-opensource
----
 # Week 4 LAMP, Drupal, and other HTTPd
 
 **Apache 資訊**

@@ -1,8 +1,3 @@
----
-hackpadID: pKEpinkAreO
-hackpadWorkspace: ncnu-opensource
-tags: hackpad-import, ncnu-opensource
----
 # Week 6 Nagios, aptitude, top, iftop, iotop
 
 2015/04/09

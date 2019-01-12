@@ -1,8 +1,3 @@
----
-hackpadID: 8zc0sIiUzKw
-hackpadWorkspace: ncnu-opensource
-tags: hackpad-import, ncnu-opensource
----
 # Ｗeek 9 Samba, three-way handshake, iptable
 
 2015/04/23

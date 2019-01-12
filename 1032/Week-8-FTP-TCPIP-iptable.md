@@ -1,8 +1,3 @@
----
-hackpadID: K4gOJ0VScwe
-hackpadWorkspace: ncnu-opensource
-tags: hackpad-import, ncnu-opensource
----
 # Week 8 FTP, TCP/IP, iptable
 
 2015/04/16 
