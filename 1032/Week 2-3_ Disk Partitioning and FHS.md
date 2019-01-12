@@ -1,8 +1,3 @@
----
-hackpadID: KHcFXwLtUSN
-hackpadWorkspace: ncnu-opensource
-tags: hackpad-import, ncnu-opensource
----
 # Week 2-3: Disk Partitioning and FHS
 
 2015/03/12  NCNU LSA
