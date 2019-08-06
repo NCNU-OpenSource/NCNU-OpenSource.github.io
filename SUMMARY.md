@@ -1,3 +1,23 @@
+
+- 1071 LSA
+    - [Week 01(2018/09/20) - Linux Basic](1071/Week1, 9_20 LSA.md)
+    - [Week 02(2018/09/27) - OpenSource Intro](1071/Week2, 9_27 LSA.md)
+    - [Week 03(2018/10/04) - DISK](1071/Week3, 10_4 LSA.md)
+    - [Week 04(2018/10/11) - FHS](1071/Week4, 10_11 LSA.md)
+    - [Week 05(2018/10/18) - 檔案權限 / FHS / 連線](1071/Week5, 10_18 LSA.md)
+    - [Week 06(2018/10/25) - Services (web/ftp/ssh/scp...)](1071/Week6, 10_25 LSA.md)
+    - [Week 07(2018/11/01) - Services (nginx/rsync/crontab)](1071/Week7, 11_1 LSA.md)
+    - [Week 08(2018/11/08) - Nginx and Apache + OSI](1071/Week8, 11_8 LSA.md)
+    - [Week 09(2018/11/15) - Vsftpd](1071/Week9, 11_5 LSA.md)
+    - [Week 10(2018/11/22) - OSI](1071/Week10, 11_22 LSA.md)
+    - [Week 11(2018/11/29) - iptables I](1071/Week11, 11_29 LSA.md)
+    - [Week 12(2018/12/06) - iptables II](1071/Week12, 12_6 LSA.md)
+    - [Week 13(2018/12/13) - Midterm](1071/Week13, 12_13 LSA midterm.md)
+    - [Week 14(2018/12/20) - 開機執行 hint](1071/Week14, 12_20 LSA.md)
+    - [Week 15(2018/12/27) - RaspberryPi I](1071/Week15, 12_20 LSA.md)
+    - [Week 16(2018/10/03) - RaspberryPi II + Mid 解答](1071/Week16, 12_27 LSA.md)
+    - [Week 17(2019/01/10) - 期末報告](1071/Week17, 1_10 LSA Final.md)
+
 - 1062 LSA
     - [Week 01(2018/03/08) - Web Servers](1062/Week-01-Web-Servers.md)
     - [Week 01(2018/03/08) - Linux Basic](1062/Week-01-Linux-basic.md)
