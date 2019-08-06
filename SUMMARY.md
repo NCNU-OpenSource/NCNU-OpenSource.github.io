@@ -1,4 +1,18 @@
 
+- 1072 LSA
+    - [Week 03(2019/03/07) - System log / Env var](1072/Week3, 03_07 LSA.md)
+    - [Week 04(2019/03/14) - Disk](1072/Week4, 03_14 LSA.md)
+    - [Week 05(2019/03/21) - SSH / IPv4, IPv6](1072/Week5,  03_21 LSA.md)
+    - [Week 06(2019/03/28) - DVWA](1072/Week6, 03_28 LSA.md)
+    - [Week 08(2019/04/11) - Security](1072/Week8, 04_11 LSA.md)
+    - [Week 09(2019/04/18) - Virtual Memory](1072/Week9, 04_18 LSA.md)
+    - [Week 10(2019/04/25) - Docker](1072/Week10, 04_25 LSA.md)
+    - [Week 11(2019/05/02) - 虛擬化技術 KVM/Qemu, LXD , LXC](1072/Week11, 05_02 LSA.md)
+    - [Week 12(2019/05/09) - 資訊安全](1072/Week12, 05_09 LSA.md)
+    - [Week 13(2019/05/16) - 備份與自動化](1072/Week13, 05_16 LSA.md)
+    - [Week 14(2019/05/23) - 自動部署、自動測試](1072/Week14, 05_23 LSA.md)
+    - [Week 15(2019/05/30) - 自動測試、Linux Asynchronous](1072/Week15, 05_30 LSA.md)
+    - [Week 18(2019/06/20) - 期末專題報告](1072/Week18,  06_20 LSA final.md)
 - 1071 LSA
     - [Week 01(2018/09/20) - Linux Basic](1071/Week1, 9_20 LSA.md)
     - [Week 02(2018/09/27) - OpenSource Intro](1071/Week2, 9_27 LSA.md)
@@ -15,7 +29,7 @@
     - [Week 13(2018/12/13) - Midterm](1071/Week13, 12_13 LSA midterm.md)
     - [Week 14(2018/12/20) - 開機執行 hint](1071/Week14, 12_20 LSA.md)
     - [Week 15(2018/12/27) - RaspberryPi I](1071/Week15, 12_20 LSA.md)
-    - [Week 16(2018/10/03) - RaspberryPi II + Mid 解答](1071/Week16, 12_27 LSA.md)
+    - [Week 16(2019/01/03) - RaspberryPi II + Mid 解答](1071/Week16, 12_27 LSA.md)
     - [Week 17(2019/01/10) - 期末報告](1071/Week17, 1_10 LSA Final.md)
 
 - 1062 LSA
