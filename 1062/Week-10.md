@@ -18,6 +18,8 @@ xen 因爲由商業公司主導，之前曾想在 Linux kernel 裏面新增其�
 geeky.name
 
 問題：VirtualBox, VMware 是否有類似 KSM 相關技術？
+> VirutalBox: PageFusion
+> VMware：Transparent Page Sharing (TPS)
 
 for create image file 
 `qemu-img create -f qcow2 test.img 10G`
