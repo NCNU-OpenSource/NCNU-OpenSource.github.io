@@ -67,6 +67,7 @@ fcitx-chewing > 新酷音
 <font color="white">-：普通檔</font>
 <font color="blue">d：目錄檔表示directory</font>
 <font color="lightblue">l：連結檔</font>
+
 b：塊設備檔
 c：字元設備檔
 p：管道檔
