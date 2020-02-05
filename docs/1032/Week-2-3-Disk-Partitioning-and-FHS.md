@@ -10,14 +10,16 @@
 
 ## 題目:
 
+```
 1.  公司對外 WebServer (PHP 之類)           , 2, 7
 2.  FileServer (NAS, FTP, NFS) 之類的        , 3, 4, 
 3.  學生網頁伺服器,                                     , 5 ,**賴原群,** 8 
 4.  Mail Server.                                              , 6, Mirase
+```
 
 <undefined>*   HDD: 80G</undefined>
 
-## 布魯踢誒講解 <3
+## 布魯踢誒講解
 
 *   "/" 根目錄：目前建議可以不用額外切割
 *   "/boot"：存放 kernel ，目前建議也是可以不用額外切割。

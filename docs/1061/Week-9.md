@@ -5,7 +5,7 @@
 ```
 $scp {檔案} {username}@{ip}:{路徑}
 ```
-Example <span style="display:inline-block">$$\Longrightarrow$$</span> `$scp index.html username@10.10.10.10:~/home/username/directory`
+Example `$scp index.html username@10.10.10.10:~/home/username/directory`
 scp 上傳檔案會預設成664權限，若要更高可到config檔更改。
 > ### 針對有設定安全性之提醒，有的人會把預設port更改
 > -P 指定 port，若是預設 22 則可以不用輸入
@@ -42,7 +42,7 @@ ncftp> get robots.txt
 > ### 指定使用者登入
 >`$ ncftp -u {username} -p {password}`
 > #### 若無 -u 則預設使用 anonymous
-> 
+>
 
 ## samba
 ### 新增本機使用者
@@ -53,43 +53,43 @@ ncftp> get robots.txt
 `$ sudo vim /etc/samba/smb.conf`
 > smb.conf檔內對底端增設
 >> [{分享檔案名稱}]
->> comment = 
+>> comment =
 >> path = {PATH TO SHARE}
 >> public = yes
 >> writable = yes
 >> ;read only = no
 >> directory mode = 0755
 >> create mode = 0755
->> 
+>>
 >> [homes]
 >>    comment = Home Directories
 >>    browseable = no
 >>    writable = yes
 >>    create mode = 0644
 >>    directory mode = 0755
-   
+
 >> [SharedDir]
->>    comment = Shared Directory 
+>>    comment = Shared Directory
 >>    path = /Test
 >>    public = yes
 >>    writable = yes
 >>    ;read only = no
 >>    directory mode = 0755
 >>    create mode = 0755
->>    valid users = @group  
+>>    valid users = @group
 
 
 
 >**0755 = rwxr-xr-x[color=blue]
 >至於rwx是什麼，請參考LINUX鳥哥**
-> 
+>
 ### 連接測試
-> linux/mac: 
+> linux/mac:
 > - `smb:\\{ip}`
-> windows: 
+> windows:
 > 1. `\\{ip}`
 > 2. Windows Key + R, type `\\{ip}`
-> 
+>
 ### 設定群組
 修改 /etc/group
 `samba:x:1001:BlueT,Alice,Bob`
@@ -102,11 +102,11 @@ ncftp> get robots.txt
 `$ sudo netstat -ntupl|grep 25|less`
 `$ ps aux|grep 24496`
 `$ iptables -nL`
- 
+
 
 > [color=red]
 > #### BT講解
-> `$ sudo dpkg -i chrome-fdrtyttfy.deb` 
+> `$ sudo dpkg -i chrome-fdrtyttfy.deb`
 > -i = install
 > `$ sudo apt install -f`
 > `$ sudo dpkg-reconfisgure postfix` 把這個套件重新設定一次。
@@ -132,7 +132,7 @@ ncftp> get robots.txt
 > - 這是說寄給 aaa@gmail.com
 > - 但是收件者可以自行將該信分類到 domain
 > 0.0.0.0是指所有區段
-> 
+>
 :::danger
 安裝後請確保是否可執行以下指令：
 1. iptables
@@ -141,9 +141,9 @@ ncftp> get robots.txt
 ## smtp DEMO by yy.chang
 > smtp 寄信protocol : 25
 > `$ telnet smtp.ncnu.edu.tw 25`
-> > HELO 
-> > MAIL FROM:a@ncnu.edu.tw 
-> > RCPT TO:{要寄給誰@mail.com} 
+> > HELO
+> > MAIL FROM:a@ncnu.edu.tw
+> > RCPT TO:{要寄給誰@mail.com}
 > > DATA
 > > From : {sender@mail.com}
 > > To : {who@mail.com}
@@ -152,7 +152,7 @@ ncftp> get robots.txt
 > > {type 什麼字元}
 > > .
 > > {type enter}
-> > 
+> >
 
 
 Webmail 推薦: squirrelmail
