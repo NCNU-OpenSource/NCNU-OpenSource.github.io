@@ -1,23 +1,21 @@
 language: node_js
 
 node_js:
-  - "10"
+  - "lts/*"
 
 cache:
   directories:
     - "node_modules"
 
 install:
-  - npm install gitbook-cli -g  # install gitbook
-  - gitbook fetch 3.2.3         # fetch final stable version
-  - gitbook install             # add any requested plugins in book.json
-  - gitbook build . public
+  - npm install
+  - npm run build
 
 script: echo 'skip test' # Skip `yarn test`
 
 deploy:
   target_branch: master
-  local_dir: ./public
+  local_dir: ./build
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
