@@ -10,6 +10,7 @@ cache:
 install:
   - npm install
   - npm run build
+  - echo 'lsa.moli.rocks' >> build/CNAME
 
 script: echo 'skip test' # Skip `yarn test`
 

@@ -1,7 +1,7 @@
 module.exports = {
   title: 'NCNU OpenSource',
   tagline: 'OpenSource related in NCNU',
-  url: 'http://lsa.moli.rocks/',
+  url: 'https://lsa.moli.rocks/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'NCNU-OpenSource', // Usually your GitHub org/user name.
