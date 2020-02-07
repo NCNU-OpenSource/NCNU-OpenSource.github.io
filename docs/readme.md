@@ -15,9 +15,11 @@
         - 可能會誤判的 Html tag 符號
         - font 元素後添加空白 [Refer Issue](https://github.com/NCNU-OpenSource/NCNU-OpenSource.github.io/pull/3)
 
-4. 將分支 merge 到分支 src 並推到 Github 上，可順便移除本機已 merge 分支 (使用 -d 只會移除已 merge 的分支)
+4. 更新 `sidebars.js` 照 `someSidebar` 內格式新增對應的連結
+
+5. 將分支 merge 到分支 src 並推到 Github 上，可順便移除本機已 merge 分支 (使用 -d 只會移除已 merge 的分支)
 ```
 git merge 分支名稱 && git branch -d 分支名稱
 ```
 
-5. Travis-CI 會自動進行 deploy，但仍建議檢查一下是否有 Parsing Error 等問題 [Travis-CI](https://travis-ci.org/)
+6. Travis-CI 會自動進行 deploy，但仍建議檢查一下是否有 Parsing Error 等問題 [Travis-CI](https://travis-ci.org/)
