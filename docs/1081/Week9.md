@@ -102,7 +102,8 @@ sudo iptables -I OUTPUT -p tcp -d 192.168.56.102 --dport ssh -j DROP
 
 ### nginx proxy header 補充
 ---
-更改proxy.conf or /site/avalibale/<my server>，來替封包加料
+更改 proxy.conf or /site/avalibale/伺服器名稱 來替封包加料
+
 ```
 location /{
     proxy_set_header HOST $host;
